@@ -2,6 +2,7 @@ const passport = require('passport');
 const GoogleStrategy = require('passport-google-oauth20').Strategy;
 const mongoose = require('mongoose');
 const keys = require('../config/keys');
+//test
 
 const User = mongoose.model('users');
 // ^^ this pulls a model out of mongoose, because it was put in, in the user.js file
