@@ -12,7 +12,6 @@ window.axios = axios;
 // ^^ the two lines above allow us to make API calls from the console using the attached cookies for authentication.
 
 const store = createStore(reducers, {}, applyMiddleware(reduxThunk));
-ReactDOM.render(<App />, document.getElementById('root'));
 
 ReactDOM.render(
     <Provider store={store}><App /></Provider>,
